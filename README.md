@@ -1,0 +1,1 @@
+Using various API’s, the application can find the user’s location through their IP Address and display the current temperature based on their coordinates. The application was written using Python and uses MySQL to store the data in a local database. The recorded data is displayed using Matplotlib to show temperature trends
