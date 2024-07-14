@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block content %}
+<p>
+    <div class="p-3 fs-4 fw-bold lh-lg text-center">
+        The current temperature in your area is:
+        <br>
+        {{ location }}
+        <br>
+        {{ temperature }}
+    </div>
+</p>
+{% endblock %}
